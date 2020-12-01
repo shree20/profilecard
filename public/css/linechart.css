@@ -1,0 +1,51 @@
+ .linediv{
+     background-color: #F8F9FA;
+ }
+
+.axis {
+	font-size: 14px;
+  
+}
+  
+text {
+  fill: #46555F;
+  stroke: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke: none;
+}
+
+.grid line {
+  stroke: #DADEE2;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 9,9;
+}
+  
+.data-line {
+  fill: none;
+  stroke: #007AFF;
+  stroke-width: 1.5px;
+}
+  
+.data-circle {
+	fill: #FFFFFF;
+	 stroke: #007AFF;
+	  stroke-width: 1.5px;
+}
+  
+
+
+.clinical-cut-off-line {
+  fill: none;
+  stroke: #C0C6CB;
+  stroke-width: 1.5px;
+}
